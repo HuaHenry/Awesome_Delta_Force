@@ -1,0 +1,53 @@
+name: Add a Gunsmith Code
+description: 提交一个新的 Delta Force 改枪码
+title: "[Gunsmith] 枪械名 - 简要描述"
+labels: ["gunsmith", "contribution"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: 改枪方案标题
+      placeholder: 如：粑粑腰射AK
+    validations:
+      required: true
+
+  - type: input
+    id: weapon
+    attributes:
+      label: 枪械名称
+      placeholder: 如：AKM
+    validations:
+      required: true
+
+  - type: input
+    id: price
+    attributes:
+      label: 当前价格
+      placeholder: 如：15w
+    validations:
+      required: true
+
+  - type: input
+    id: code
+    attributes:
+      label: 改枪码
+      placeholder: xxx-烽火地带-xxx
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 简要说明
+      description: 适用模式、优势或使用建议
+      placeholder: 如：中距离压枪稳，适合排位
+    validations:
+      required: false
+
+  - type: input
+    id: contributor
+    attributes:
+      label: 你的昵称 / 平台 ID
+      placeholder: GitHub / B站 / 游戏 ID
+    validations:
+      required: false
