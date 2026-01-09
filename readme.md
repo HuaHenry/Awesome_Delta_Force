@@ -7,6 +7,8 @@
 > ✨ 本项目长期维护，欢迎主播、UP主和普通玩家共同建设  
 > ✨ 所有贡献者都会永久保留署名
 
+> 注：目前仅开放收集功能，Leaderboard 正在建设中...
+
 `Awesome_delta_force` is a lightweight open-source hub for **Delta Force gunsmith codes, meta rankings**, and optimized community builds. Quickly browse, copy, and apply loadouts to elevate your in-game performance.
 
 本项目旨在收集各平台主播及玩家改枪码，持续更新中，欢迎大家补充。
