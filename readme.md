@@ -11,7 +11,11 @@
 
 `Awesome_delta_force` is a lightweight open-source hub for **Delta Force gunsmith codes, meta rankings**, and optimized community builds. Quickly browse, copy, and apply loadouts to elevate your in-game performance.
 
-本项目旨在收集各平台主播及玩家改枪码，持续更新中，欢迎大家补充。
+本项目旨在收集**各平台主播及玩家改枪码**，持续更新中，欢迎大家补充。
+- ![突击步枪改枪码大全](./data/突击步枪.csv)
+- ![冲锋枪改枪码大全](./data/冲锋枪.csv)
+- ![射手步枪改枪码大全](./data/射手步枪.csv)
+- ![狙击枪改枪码大全](./data/狙击枪.csv)
 
 ## 如何为本项目贡献改枪码
 
@@ -25,7 +29,7 @@
 **贡献步骤：**
 
 1. Fork 本仓库
-2. 打开 `data/gunsmith_codes.csv`
+2. 打开 `data/`，选择对应的枪械种类文件（狙击枪/射手步枪/突击步枪）
 3. 在文件末尾 **新增一行**，填写你的改枪码信息
 4. 提交修改并发起 Pull Request
 

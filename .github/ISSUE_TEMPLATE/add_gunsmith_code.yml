@@ -4,6 +4,14 @@ title: "[Gunsmith] 枪械名 - 简要描述"
 labels: ["gunsmith", "contribution"]
 body:
   - type: input
+    id: type
+    attributes:
+      label: 枪械种类
+      placeholder: 如：冲锋枪、狙击枪、突击步枪、射手步枪
+    validations:
+      required: true
+
+  - type: input
     id: title
     attributes:
       label: 改枪方案标题
